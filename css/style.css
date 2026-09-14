@@ -937,6 +937,20 @@ button, input, textarea, select {
   margin-bottom: 0.75rem;
 }
 
+.kyii-callout {
+  background: rgba(124, 58, 237, 0.07);
+  border-left: 3px solid #7c3aed;
+  padding: 0.85rem 1rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: #4c1d95;
+  margin-bottom: 1rem;
+}
+.kyii-callout strong {
+  color: #3b0764;
+}
+
 /* Feature checklist */
 .project-highlights {
   margin-bottom: 1.75rem;
