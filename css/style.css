@@ -738,6 +738,9 @@ button, input, textarea, select {
   gap: 1.5rem;
   margin-top: 2rem;
 }
+.about-pillars .pillar-card:last-child:nth-child(odd) {
+  grid-column: span 2;
+}
 .pillar-card {
   display: flex;
   gap: 1rem;
@@ -854,6 +857,13 @@ button, input, textarea, select {
 .card-freedrive .project-card-image img {
   object-fit: contain;
   padding: 0.5rem;
+}
+.card-fund .project-card-image {
+  background-color: #ffffff;
+}
+.card-fund .project-card-image img {
+  object-fit: contain;
+  padding: 0.75rem;
 }
 
 .project-badge-overlay {
@@ -1029,6 +1039,16 @@ button, input, textarea, select {
 .project-card.card-tyc { border-top: 4px solid var(--blue-700); }
 .project-card.card-kyii { border-top: 4px solid #7c3aed; }
 .project-card.card-freedrive { border-top: 4px solid #059669; }
+.project-card.card-fund { border-top: 4px solid #d97706; }
+
+@media (min-width: 1025px) {
+  .projects-grid .project-card:last-child:nth-child(odd) {
+    grid-column: span 2;
+    max-width: 780px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 
 /* ==========================================================================
    COMMUNITY IMPACT GALLERY / STORIES
