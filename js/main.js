@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.innerHTML = originalText;
         formAlert.classList.add('success');
         formAlert.innerHTML = `
-          <strong>Medase! (Thank you!)</strong> Your message has been received by the Takoradi Parliamentary & Foundation Desk. We will reach out to you shortly.
+          <strong>Medase! (Thank you!)</strong> Your message has been received by the KOBBY DO GOOD secretariat. We will reach out to you shortly.
         `;
         contactForm.reset();
 

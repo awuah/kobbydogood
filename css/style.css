@@ -1163,7 +1163,7 @@ button, input, textarea, select {
 }
 
 /* ==========================================================================
-   CONSTITUENCY & CONTACT / GET INVOLVED SECTION
+   COMMUNITY DESK & CONTACT / GET INVOLVED SECTION
    ========================================================================== */
 .contact {
   padding: 6.5rem 0;
@@ -1254,19 +1254,19 @@ button, input, textarea, select {
   color: var(--red-400);
 }
 
-.constituency-hours-badge {
+.contact-hours-badge {
   background: rgba(255, 255, 255, 0.08);
   border-left: 3px solid var(--red-600);
   padding: 1rem 1.25rem;
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
-.constituency-hours-badge h6 {
+.contact-hours-badge h6 {
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--white);
   margin-bottom: 0.2rem;
 }
-.constituency-hours-badge p {
+.contact-hours-badge p {
   font-size: 0.82rem;
   color: var(--slate-300);
 }
